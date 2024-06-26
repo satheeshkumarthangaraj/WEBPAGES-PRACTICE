@@ -1,5 +1,23 @@
-body
+.nav ul
 {
-    background-color:grey;
-    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgb(93, 79, 107);
+    margin: 0px;
+    overflow: hidden;
+}
+.nav a
+{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+.nav a:hover
+{
+    background-color: brown;
+}
+
+.nav li{
+    float: left;
 }
