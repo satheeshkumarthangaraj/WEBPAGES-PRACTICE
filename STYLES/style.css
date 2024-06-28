@@ -1,9 +1,17 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(211, 143, 182);
+    font-size:larger;
+    font-weight: 100;
+    color: aqua;
+}
 .nav ul
 {
     list-style-type: none;
     padding: 0px;
     background-color: rgb(93, 79, 107);
-    margin: 0px;
+    margin: 10px;
     overflow: hidden;
 }
 .nav a
@@ -12,12 +20,32 @@
     color: white;
     padding: 15px;
     display: block;
+    text-decoration: none;
 }
 .nav a:hover
 {
-    background-color: brown;
+    background-color: rgb(186, 218, 181);
+    color: beige;
 }
 
 .nav li{
     float: left;
+}
+/* styles.css */
+/*
+td {
+    background-color: lightblue;
+    color: darkblue;
+    padding: 10px;
+}
+
+.highlight {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+*/
+.table
+{
+    background-color: blueviolet;
+    color: rgb(8, 35, 59);
 }
