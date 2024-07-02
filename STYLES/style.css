@@ -6,26 +6,30 @@ body
     font-weight: 100;
     color: aqua;
 }
+ 
 .nav ul
 {
+    height: fit-content;
+    width:100%; 
     list-style-type: none;
     padding: 0px;
     background-color: rgb(93, 79, 107);
-    margin: 10px;
+    margin: 0px;
+    position: fixed;
     overflow: hidden;
 }
 .nav a
 {
     text-align: center;
     color: white;
-    padding: 15px;
+    padding: 10px;
     display: block;
     text-decoration: none;
 }
 .nav a:hover
 {
-    background-color: rgb(186, 218, 181);
-    color: beige;
+    background-color: rgb(50, 102, 105);
+    color: rgb(223, 223, 42);
 }
 
 .nav li{
